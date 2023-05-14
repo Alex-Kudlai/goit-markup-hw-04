@@ -476,6 +476,12 @@ img {
 .card-section-item {
   flex-basis: calc((100% - 48px) / 3);
 }
-.card-section-item:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+
+.card-section-link {
+  display: block;
+}
+.card-section-link:hover,
+.card-section-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }

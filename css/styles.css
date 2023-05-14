@@ -9,6 +9,7 @@
   --secondary-text-color-theme-light: #f4f4fd;
   --btn-border-color-light: #e7e9fc;
   --secondary-text-color-theme-dark: #4d5ae5;
+  --icon-color: #8e8f99;
 }
 
 body {
@@ -281,7 +282,7 @@ img {
   gap: 24px;
 }
 .team-description {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 .social-list {
   display: flex;
@@ -305,9 +306,19 @@ img {
   background-color: #404bbf;
 }
 /* Сustomers */
+.section-customers {
+  padding: 120px 0;
+}
+.title-customers {
+  font-size: 36px;
+  line-height: 1.1;
+  color: var(--primary-background-color-theme-dark);
+  text-align: center;
+  margin-bottom: 72px;
+}
 .customers-icon {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 24px;
 }
 .customers-icon-list {
@@ -322,14 +333,16 @@ img {
   height: 100%;
   border-radius: 4px;
   border: 1px solid #8e8f99;
-  color: #8e8f99;
-  fill: currentColor;
+  color: var(--icon-color);
 }
 
 .customers-list-link:hover,
 .customers-list-link:focus {
-  border-color: var(--accent-color);
-  color: var(--accent-color);
+  border-color: #404bbf;
+  color: #404bbf;
+}
+.customers-list-icon {
+  fill: currentColor;
 }
 
 /* Footer */
